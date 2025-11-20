@@ -74,6 +74,19 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.6 -c pytorch -c nvi
 pip install -r requirements.txt
 ```
 
+```
+## 项目结构
+
+```text
+PythonProject/
+│
+├── output/         # 检测结果输出目录
+├── best.pt      # 训练好的模型权重
+├── app.py                   # 主应用程序
+├── train_model.py           # 模型训练脚本
+└── requirements.txt         # 项目依赖
+```
+
 方法二  使用可执行文件
 
 ```text
@@ -87,24 +100,6 @@ pip install -r requirements.txt
 ### 运行程序
 
 ```
-python app.py
-```
-
-
-
-## 项目结构
-
-```text
-PythonProject/
-│
-├── output/         # 检测结果输出目录
-├── best.pt      # 训练好的模型权重
-├── app.py                   # 主应用程序
-├── train_model.py           # 模型训练脚本
-└── requirements.txt         # 项目依赖
-```
-
-
 
 ## 🎮 使用指南
 
