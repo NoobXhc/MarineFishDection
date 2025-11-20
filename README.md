@@ -95,7 +95,7 @@ PythonProject/
 3.确保以下文件在同一目录下：
 	FishDetection.exe (主程序)
 	best.pt (AI模型文件)
-	sign.ico (图标文件，可选)
+	_internal(文件夹)
 4.FishDetection.exe 启动程序
 ### 运行程序
 
