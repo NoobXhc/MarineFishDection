@@ -60,8 +60,8 @@
 
 ## 快速开始
 
-### 环境安装
-方法一
+ 
+方法一  环境安装
 ```bash
 # 创建conda环境
 conda create -n ultralytics python=3.9
@@ -74,8 +74,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.6 -c pytorch -c nvi
 pip install -r requirements.txt
 ```
 
-方法二
-使用可执行文件
+方法二  使用可执行文件
+
 ```text
 1.下载完整的程序包 FishDection
 2.解压到任意文件夹
